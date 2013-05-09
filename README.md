@@ -10,7 +10,7 @@ How to install and use
 
 1. Put the AppRate [jar] in your `libs` folder or add AppRate as a library project.
 
-[jar]: https://github.com/TimotheeJeannin/AppRate/tree/master/AppRateDownloads
+[jar]: AppRateDownloads
 
 2. Use AppRate as follows in your `MAIN` activity: 
 
@@ -70,8 +70,8 @@ new AppRate(this)
 Screenshots
 -----------
 
-![Screenshot 1](https://raw.github.com/TimotheeJeannin/AppRate/master/AppRateScreenshots/screenshot_1.png "Screenshot 1")
-![Screenshot 2](https://raw.github.com/TimotheeJeannin/AppRate/master/AppRateScreenshots/screenshot_2.png "Screenshot 2")
+![Screenshot 1](AppRateScreenshots/screenshot_1.png "Screenshot 1")
+![Screenshot 2](AppRateScreenshots/screenshot_2.png "Screenshot 2")
 
 License
 -------
