@@ -1,0 +1,17 @@
+bin
+gen
+*.apk
+.hg/
+local.properties
+*.DS_Store
+*.BridgeSort
+out/
+tmp/
+build/
+.gradle/
+.idea/
+*.iml
+.project
+.classpath
+*.pem
+mirror/

@@ -9,4 +9,5 @@ public class PrefsContract {
 	public static final String PREF_LAUNCH_COUNT = "launch_count";
 	public static final String PREF_DONT_SHOW_AGAIN = "dont_show_again";
 	public static final String PREF_DONT_SHOW_IF_CRASHED = "pref_dont_show_if_crashed";
+    public static final String PREF_APP_VERSION_CODE = "pref_app_version_code";
 }
