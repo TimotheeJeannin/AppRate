@@ -230,8 +230,13 @@ public class AppRate implements android.content.DialogInterface.OnClickListener,
 			try
 			{
 				hostActivity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + hostActivity.getPackageName())));
-			}catch (ActivityNotFoundException e) {
-				Toast.makeText(hostActivity, "No Play Store installed on device", Toast.LENGTH_SHORT).show();
+			} catch (ActivityNotFoundException e) {
+				try 
+				{
+					hostActivity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + hostActivity.getPackageName())));
+				} catch (ActivityNotFoundException b) {
+					Toast.makeText(hostActivity, "No Browser installed on device", Toast.LENGTH_SHORT).show();
+				}
 			}
 			editor.putBoolean(PrefsContract.PREF_DONT_SHOW_AGAIN, true);
 			break;
